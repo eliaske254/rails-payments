@@ -16,6 +16,8 @@ gem "sqlite3", "~> 1.4", group: [:development, :test]
 # postgres for production db
 gem 'pg', group: [:production]
 
+gem 'bootstrap-sass'
+
 #12 factor for heroku
 gem 'rails_12factor', group: :production
 
